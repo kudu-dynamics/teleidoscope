@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "0.0.5",
+  "main": "index.js",
+  "license": "Proprietary",
+  "private": true,
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.2.0",
+    "deepmerge": "^4.2.2",
+    "ngraph.cw": "^2.0.0",
+    "ngraph.forcelayout3d": "^0.0.16",
+    "ngraph.graph": "^0.0.14",
+    "parcel-bundler": "^1.12.4",
+    "three": "^0.98.0"
+  },
+  "scripts": {
+    "build": "parcel build index.html --out-dir ./static --no-source-maps --public-url /static"
+  }
+}
